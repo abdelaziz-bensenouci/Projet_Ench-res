@@ -1,0 +1,81 @@
+header {
+	display: flex;
+	flex-direction: row;
+}
+
+header h1 {
+	color: blue;
+	margin-left: 33%;
+	white-space: nowrap;
+}
+
+a {
+	text-decoration: none;
+}
+
+form {
+	align-items: center;
+	justify-content: center;
+	display: grid;
+	gap: 5px;
+	margin-top: 0;
+}
+
+#description {
+	padding: 20px;
+}
+
+#prixInitial {
+	width: 50px;
+}
+
+#categorie {
+	width: 110px;
+}
+
+#datedebut {
+	width: 110px;
+}
+
+#datefin {
+	width: 110px;
+}
+
+.form-group {
+	display: grid;
+	grid-template-columns: 150px auto;
+	align-items: center;
+	padding: 7px;
+}
+
+label {
+	text-align: left;
+}
+
+.coordonnees .form-group {
+	grid-template-columns: 100px 1fr;
+}
+
+.coordonnees .form-group input {
+	justify-self: center;
+}
+
+.coordonnees legend {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+button {
+	margin-top: 20px;
+}
+
+/* Optional styling for the fieldset */
+fieldset {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+legend {
+	font-weight: bold;
+}

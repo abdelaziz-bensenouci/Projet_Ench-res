@@ -1,0 +1,61 @@
+h1 {
+	margin-left: 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logID {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logID label {
+	display: block;
+	float: left;
+	width: 7em;
+}
+
+.id {
+	align-items: center;
+	margin: 1%;
+}
+
+.pwd {
+	align-items: center;
+}
+
+.logIN {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 2%;
+}
+
+.logIN button {
+	padding: 0.75%;
+}
+
+.logIN a {
+	padding: 5%;
+}
+
+.logCreate {
+	display: flex;
+	font-size: 1.75em;
+	margin: auto;
+	padding: 1%;
+}
+
+.gestion {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+}
+
+.gestion label {
+	margin-right: 10px;
+}

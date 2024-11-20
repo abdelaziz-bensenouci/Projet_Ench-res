@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body, button {
+	font-size: 125%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	margin-left: 5%;
+	color: blue;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	text-align: left;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 5px; /* Ajoute un espace interne pour séparer le texte de la bordure */
+    font-size: 18px;
+}
+
+p::before {
+    content: attr(data-label); /* Récupère le texte du data-label et l'affiche */
+    flex: 1; /* Le libellé occupe 1 part du flex container */
+    margin-right: 75px; /* Pour créer un espace entre le libellé et la valeur */
+    text-align: left; /* Pour aligner le libellé à gauche */
+}
+
+.btn-Encherir {
+	width: 25%;
+	font-size: 100%;
+	margin-top: 50px;
+	margin-left: 50px;
+	padding: 15px 30px 15px 30px;
+}

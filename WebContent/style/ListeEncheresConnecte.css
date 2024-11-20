@@ -1,0 +1,67 @@
+main h2{
+    margin-left: 28%;
+}
+
+.rechercher{
+    display: flex;   
+    margin-left: 30%;
+}
+
+.rechercher button{
+    margin-left: 10%;
+    padding: 20px 80px 20px 80px;
+    font-size: 150%;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;  
+}
+
+.article input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5%;
+    font-size: 100%;    
+}
+
+.categorie label{
+    display: inline-flex;
+    margin-top: 2%;
+    width: 120px;
+}
+
+
+select{    
+    font-size: 100%;
+    margin: auto;
+}
+
+.choix{
+    display: flex;
+    margin: 2%;
+}
+
+.achat label{
+    grid-column: 1;
+    width: 100px;   
+}
+
+.achatCheckbox{
+    margin-left: 10%;
+    width: 300px;
+}
+
+.vente{
+    margin-left: 5%;   
+}
+
+.venteCheckbox{
+    margin-left: 10%;
+    width: 300px;
+}
+
+
+.vente label{
+    grid-column: 2; 
+}

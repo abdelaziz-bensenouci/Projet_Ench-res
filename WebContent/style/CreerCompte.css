@@ -1,0 +1,68 @@
+a {
+	text-decoration: none;
+}
+
+h1 {
+	margin-bottom: 4%;
+	margin-left: 4%;
+	text-align: center;
+}
+
+.credit {
+	margin-right: 70%;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.form-colonne {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	text-align: right;
+}
+
+.form-saisie {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5%;
+	padding: 5px;
+}
+
+.form-saisie label {
+	display: block;
+	float: left;
+	width: 7em;
+	align-self: flex-start;
+	width: 180px;
+}
+
+.form-saisie input{
+	text-align: left;
+	margin-left: 20px;
+}
+
+.form-colonne .form-saisie:last-child {
+	margin-top: 35px; /* Ajustez cette valeur pour décaler Confirmation Mot de passe */
+}
+
+.logIN {
+	display: flex;
+	justify-content: center;
+	margin-top: 2%;
+	margin-left: 5%;
+	gap: 4%;
+}
+
+.logIN input{
+	font-size: 115%;
+	padding: 15px 30px 15px 30px;
+}
+
+.logIN button{
+	font-size: 115%;
+	padding: 15px 30px 15px 30px;
+}
